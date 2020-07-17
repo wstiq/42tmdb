@@ -1,6 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 #movies img, #movie img{
   width: 100%;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+}
+
+h3, .h3 {
+  font-size: 20px;
+  margin-right: 400px;
+}
+
+.jumbotron {
+  padding-top: 5px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.filtering {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+select#selgen {
+  border: thin solid #cecece;
+  margin-left: -8px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+}
+
+input#searchYear {
+  border: thin solid #cecece;
+  margin-left: -8px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+}
+
+input#searchActor {
+  border: thin solid #cecece;
+  margin-left: -8px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+}
+
+input#knopka {
+  border: thin solid #cecece;
+  margin-left: -8px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+}
+
 
 @media(min-width:960px){
   #movies .col-md-3 .well{

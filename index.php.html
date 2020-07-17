@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Info</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body style="background-color: #1b1b1b">
+
+    <nav class="navbar navbar-default" style="background-color:black">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">MovieInfo</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h3 class="text-center">Search For Any Movie</h3>
+        <form id="searchForm">
+          <input type="text" class="form-control" id="searchText" placeholder="Search Movie....">
+
+        </form>
+
+        <form action="#" class="d-md-flex justify-content-between">
+        <div class="filtering" style="margin-top: 10px">
+          <label>Ganre: </label>
+          <select name="ganre" id="selgen">
+            <option value="">-Select-</option>
+            <option value="28">Action</option>
+            <option value="12">Adventure</option>
+            <option value="16">Animation</option>
+            <option value="35">Comedy</option>
+            <option value="80">Crime</option>
+            <option value="99">Documentary</option>
+            <option value="18">Drama</option>
+            <option value="10751">Family</option>
+            <option value="14">Fantasy</option>
+            <option value="36">History</option>
+            <option value="27">Horror</option>
+            <option value="10402">Music</option>
+            <option value="9648">Mystery</option>
+            <option value="10749">Romance</option>
+            <option value="878">Science Fiction</option>
+            <option value="10770">TV Movie</option>
+            <option value="53">Thriller</option>
+            <option value="10752">War</option>
+            <option value="37">Western</option>
+          </select>
+          <form id="sel2gen">
+          <label>Find by year</label>
+          <input type="text" id="searchYear" placeholder="Tell me the number">
+            <label>Find by Actor</label>
+            <input type="text" id="searchActor" placeholder="Tell me the name">
+            <input type="button" id="knopka" value="CLICK HERE TO FIND OUT"/>
+          </form>
+        </div>
+        </form>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+    <div class=""
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+  </body>
+</html>
